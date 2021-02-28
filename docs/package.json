@@ -1,0 +1,19 @@
+{
+  "name": "tailer",
+  "version": "0.0.1",
+  "description": "teratailを使用する際の非公式マニュアル",
+  "main": "index.js",
+  "authors": {
+    "name": "kai0310",
+    "email": "kn0310@outlook.jp"
+  },
+  "repository": "kai0310/tailer/tailer",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
