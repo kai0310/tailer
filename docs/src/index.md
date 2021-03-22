@@ -1,15 +1,7 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: teratailを使用する際のマニュアル
+tagline: teratailを使用する際の非公式ガイドブック
 actionText: Quick Start →
 actionLink: /guide/
-features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by kai0310 with ❤️
+footer: Made by kai0310
 ---

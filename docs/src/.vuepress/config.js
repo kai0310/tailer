@@ -1,13 +1,7 @@
-const { description } = require('../../package')
+const { name, description, repository } = require('../../package')
 
 module.exports = {
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#title
-   */
-  title: 'Vuepress Docs Boilerplate',
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#description
-   */
+  title: name,
   description: description,
 
   /**
@@ -38,13 +32,13 @@ module.exports = {
         link: '/guide/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'teratail',
+        link: 'https://teratail.com'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
+        text: 'GitHub',
+        link: `https://github.com/${repository}`
+      },
     ],
     sidebar: {
       '/guide/': [
@@ -53,7 +47,7 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'question-tips',
           ]
         }
       ],
